@@ -1,5 +1,15 @@
 # xstate
 
+## 5.0.0-beta.44
+
+### Major Changes
+
+- [#4448](https://github.com/statelyai/xstate/pull/4448) [`9c4353020`](https://github.com/statelyai/xstate/commit/9c435302042be8090e78dc75fe4a9288a64dbb11) Thanks [@Andarist](https://github.com/Andarist)! - `isState`/`isStateConfig` were replaced by `isMachineSnapshot`. Similarly, `AnyState` type was deprecated and it's replaced by `AnyMachineSnapshot` type.
+
+### Patch Changes
+
+- [#4463](https://github.com/statelyai/xstate/pull/4463) [`178deadac`](https://github.com/statelyai/xstate/commit/178deadac5dc29c1b7a749936622456d98294fa5) Thanks [@Andarist](https://github.com/Andarist)! - `invoke` and `spawn` will now require `input` to be provided if the used actor requires it.
+
 ## 5.0.0-beta.43
 
 ### Major Changes
